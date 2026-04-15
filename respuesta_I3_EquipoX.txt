@@ -49,7 +49,8 @@ git push origin [rama_apellido_beta].
 
 
 
-g) git fetch origin para detectar la rama de BETA.
+g) ¿Qué debió hacer (todos los comandos) en el punto 8 para poder hacer lo pedido? Los comandos fueron: 
+git fetch origin para detectar la rama de BETA.
 git checkout [apellido_de_beta] para cambiarme a esa rama.
 git pull origin [apellido_de_beta] para obtener la versión actualizada por GAMMA.Realicé la edición manual del archivo beta.txt.
 git add beta.txt y git commit -m "ALFA: actualización de datos" para registrar el cambio localmente.
