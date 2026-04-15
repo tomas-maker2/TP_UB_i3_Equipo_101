@@ -1,0 +1,33 @@
+a- ¿Cómo queda el máster después de estos cambios?
+El máster (main) queda con el archivo beta.txt incorporado. Como este archivo no existía previamente en main, simplemente se agrega sin generar conflictos. Main conserva todos sus archivos originales más el nuevo archivo beta.txt que contiene el nombre, apellido, la información de red obtenida con ipconfig (equivalente a ifconfig en Windows) y la hora de cuando Beta creó el archivo. El historial de main queda actualizado con un nuevo commit que puede ser del tipo fast-forward o un commit de merge, dependiendo de si habÍa otros cambios en main mientras Beta trabajaba en su rama.
+El repositorio remoto también se actualiza con estos cambios después de hacer el push.
+
+
+b- ¿Beta pudo ver todos los cambios que se realizaron?
+Sí, Beta pudo ver todos los cambios que se realizaron. Antes de hacer el merge, Beta pudo ejecutar el comando git log origin/main..HEAD --oneline para ver la lista de commits que estaban en su rama Bolotnicoff pero que aún no estaban en main. También pudo usar git diff origin/main --name-status para ver qué archivos eran diferentes, lo cual mostraba que beta.txt era un archivo nuevo marcado con la letra A de added. Además, Beta pudo ver el contenido exacto de beta.txt usando cat beta.txt o en Windows type beta.txt. Durante el merge, al ejecutar git merge Bolotnicoff, Git mostró en pantalla cuántos archivos se modificaron o agregaron, mostrando un mensaje como "1 file changed, 10 insertions(+)" y "create mode 100644 beta.txt". Después del merge, Beta pudo confirmar los cambios ejecutando ls beta.txt para ver que el archivo existía en main, cat beta.txt para ver su contenido, git log --oneline -- beta.txt para ver el historial de commits que afectaron a ese archivo, y git diff 
+main Bolotnicoff para verificar que ya no había diferencias entre ambas ramas respecto a ese archivo.
+
+
+c- ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
+Los comandos que Beta debió ejecutar en orden para poder hacer el merge son los siguientes:
+
+Primero, verificar que estaba en la rama correcta con git branch, que debía mostrar un asterisco en Bolotnicoff.
+
+Luego, asegurarse de que el archivo beta.txt existía en su rama con dir beta.txt en Windows o ls beta.txt en Git Bash.
+
+Después, verificar que no había cambios sin commitear con git status. Si había archivos sin commit, debía agregarlos con git add beta.txt y luego git commit -m "Agrego beta.txt con mi información".
+
+Una vez confirmado que todo estaba commiteado, cambiaba a la rama main con git checkout main.
+
+Luego actualizaba main desde el remoto por si había cambios nuevos con git pull origin main.
+
+El siguiente comando era el merge propiamente dicho: git merge Bolotnicoff. Como beta.txt no existía en main, Git lo agregaba automáticamente sin conflictos.
+
+Para verificar que el merge fue exitoso, ejecutaba ls beta.txt para confirmar que el archivo ahora estaba en main y cat beta.txt para ver su contenido.
+
+Finalmente, subía los cambios al repositorio remoto con git push origin main.
+
+De manera opcional, podía volver a su rama con git checkout Bolotnicoff o eliminar la rama si ya no la necesitaba con git branch -d Bolotnicoff y git push origin --delete Bolotnicoff.
+
+En resumen, los comandos esenciales y obligatorios para hacer el merge son: git checkout main, git pull origin main, git merge Bolotnicoff, y git push origin main.
+
