@@ -5,3 +5,43 @@ Hora: 2026-04-15 19:16:09
 
 === INFORMACIÓN DE RED (Equivalente a ifconfig en Windows) ===
  Configuración IP de Windows     Nombre de host. . . . . . . . . : WKS137    Sufijo DNS principal  . . . . . : ar.mobile    Tipo de nodo. . . . . . . . . . : híbrido    Enrutamiento IP habilitado. . . : no    Proxy WINS habilitado . . . . . : no    Lista de búsqueda de sufijos DNS: ar.mobile  Adaptador de Ethernet Ethernet 2:     Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter    Dirección física. . . . . . . . . . . . . : 0A-00-27-00-00-0B    DHCP habilitado . . . . . . . . . . . . . : no    Configuración automática habilitada . . . : sí    Vínculo: dirección IPv6 local. . . : fe80::f4c9:3bc4:c7e2:fd60%11(Preferido)     Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1(Preferido)     Máscara de subred . . . . . . . . . . . . : 255.255.255.0    Puerta de enlace predeterminada . . . . . :     IAID DHCPv6 . . . . . . . . . . . . . . . : 755630119    DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-2D-CE-55-34-E0-70-EA-CF-95-70    NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado  Adaptador de LAN inalámbrica Conexión de área local* 1:     Estado de los medios. . . . . . . . . . . : medios desconectados    Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter    Dirección física. . . . . . . . . . . . . : 44-E5-17-FA-75-6D    DHCP habilitado . . . . . . . . . . . . . : sí    Configuración automática habilitada . . . : sí  Adaptador de LAN inalámbrica Conexión de área local* 2:     Estado de los medios. . . . . . . . . . . : medios desconectados    Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2    Dirección física. . . . . . . . . . . . . : 46-E5-17-FA-75-6C    DHCP habilitado . . . . . . . . . . . . . : no    Configuración automática habilitada . . . : sí  Adaptador de Ethernet Ethernet 3:     Estado de los medios. . . . . . . . . . . : medios desconectados    Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Fortinet Virtual Ethernet Adapter (NDIS 6.30)    Dirección física. . . . . . . . . . . . . : 00-09-0F-FE-00-01    DHCP habilitado . . . . . . . . . . . . . : sí    Configuración automática habilitada . . . : sí  Adaptador de LAN inalámbrica Wi-Fi:     Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX201 160MHz    Dirección física. . . . . . . . . . . . . : 44-E5-17-FA-75-6C    DHCP habilitado . . . . . . . . . . . . . : sí    Configuración automática habilitada . . . : sí    Vínculo: dirección IPv6 local. . . : fe80::f026:4e42:8303:f1dc%14(Preferido)     Dirección IPv4. . . . . . . . . . . . . . : 10.189.210.178(Preferido)     Máscara de subred . . . . . . . . . . . . : 255.0.0.0    Concesión obtenida. . . . . . . . . . . . : miércoles, 15 de abril de 2026 18:22:43    La concesión expira . . . . . . . . . . . : jueves, 16 de abril de 2026 19:14:50    Puerta de enlace predeterminada . . . . . : 10.128.128.128    Servidor DHCP . . . . . . . . . . . . . . : 10.128.128.128    IAID DHCPv6 . . . . . . . . . . . . . . . : 88401175    DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-2D-CE-55-34-E0-70-EA-CF-95-70    Servidores DNS. . . . . . . . . . . . . . : 10.128.128.128    NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado  Adaptador de Ethernet Conexión de red Bluetooth:     Estado de los medios. . . . . . . . . . . : medios desconectados    Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Bluetooth Device (Personal Area Network)    Dirección física. . . . . . . . . . . . . : 44-E5-17-FA-75-70    DHCP habilitado . . . . . . . . . . . . . : sí    Configuración automática habilitada . . . : sí  Adaptador de Ethernet Ethernet:     Estado de los medios. . . . . . . . . . . : medios desconectados    Sufijo DNS específico para la conexión. . :     Descripción . . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller    Dirección física. . . . . . . . . . . . . : E0-70-EA-CF-95-70    DHCP habilitado . . . . . . . . . . . . . : sí    Configuración automática habilitada . . . : sí
+
+=== INFORMACIÓN DE ALFA ===
+Nombre: Santiago  
+Apellido: Rens
+Hora: 2026-04-15 19:19:09
+
+=== INFORMACIÓN DE RED (Equivalente a ifconfig en Windows) ===
+Configuración IP de Windows
+
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::cceb:ffc3:8f79:7b0d%18
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+
+Adaptador de LAN inalámbrica Local Area Connection* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . :
+
+Adaptador de LAN inalámbrica Local Area Connection* 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . :
+
+Adaptador de LAN inalámbrica Wi-Fi:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::d09e:fb93:34ae:b6d5%13
+   Dirección IPv4. . . . . . . . . . . . . . : 10.199.184.143
+   Máscara de subred . . . . . . . . . . . . : 255.0.0.0
+   Puerta de enlace predeterminada . . . . . : 10.128.128.128
+
+Adaptador de Ethernet Bluetooth Network Connection:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . :
