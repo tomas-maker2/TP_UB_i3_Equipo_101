@@ -29,6 +29,8 @@ Finalmente, subía los cambios al repositorio remoto con git push origin main.
 
 De manera opcional, podía volver a su rama con git checkout Bolotnicoff o eliminar la rama si ya no la necesitaba con git branch -d Bolotnicoff y git push origin --delete Bolotnicoff.
 
+En resumen, los comandos esenciales y obligatorios para hacer el merge son: git checkout main, git pull origin main, git merge Bolotnicoff, y git push origin main.
+
 d) ¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados? No necesariamente. Las ramas individuales conservan los cambios realizados hasta su último push, pero no reciben automáticamente los cambios que otros integrantes hayan subido a la rama principal (master) o a otras ramas a menos que se realice un git pull o un nuevo merge hacia ellas.
 
 e) Detalle (explique) los problemas que tuvieron al hacer el merge. El principal problema son los conflictos de fusión (merge conflicts). Estos ocurren porque múltiples integrantes (ALFA, BETA y GAMMA) modifican las mismas líneas en archivos compartidos como datos.txt y beta.txt de forma simultánea. Git no puede decidir automáticamente qué versión mantener, obligando a los usuarios a resolver las diferencias manualmente.
@@ -45,5 +47,11 @@ git push origin [rama_apellido_beta].
 
 
 
-En resumen, los comandos esenciales y obligatorios para hacer el merge son: git checkout main, git pull origin main, git merge Bolotnicoff, y git push origin main.
+
+
+g) git fetch origin para detectar la rama de BETA.
+git checkout [apellido_de_beta] para cambiarme a esa rama.
+git pull origin [apellido_de_beta] para obtener la versión actualizada por GAMMA.Realicé la edición manual del archivo beta.txt.
+git add beta.txt y git commit -m "ALFA: actualización de datos" para registrar el cambio localmente.
+6. git push origin Bolotnicoff  para subir mi aporte al repositorio remoto. 
 
